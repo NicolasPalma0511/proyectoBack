@@ -13,7 +13,7 @@ const app = express();
 
 // Configurar cors
 const corsOptions = {
-  origin: 'http://localhost:19006', // Ajustar al origen correcto de tu frontend
+  origin: 'https://gloma-app.netlify.app/', // Ajustar al origen correcto de tu frontend
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization', 'x-auth-token'], // Encabezados permitidos
 };
